@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Modern personal portfolio website for Nightmare (CSE student) with dark futuristic theme, glassmorphism effects, advanced animations, and smooth UI/UX. Includes hero section, about, skills, certifications, projects, and contact sections with neon glow effects and 3D transformations.",
+  "architectural_notes": [
+    "Dark futuristic theme with glassmorphism and transparency effects throughout",
+    "Neon glow buttons and hover effects on interactive elements",
+    "3D transformations and parallax scrolling for depth",
+    "Smooth page transitions and micro-interactions",
+    "Interactive particle/grid background system",
+    "Fully responsive design with mobile-first approach",
+    "SEO optimized structure with accessibility features",
+    "Sticky navigation bar with smooth scrolling",
+    "Animated progress bars and skill indicators",
+    "Glass card components with glow borders for certifications"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Edit Images\n- Replace with actual Intershala Web Development certificate (Intershala-WebDev-Certificate.dim_800x600.png > Intershala-WebDev-Certificate.dim_800x600.png)\n- Replace with actual HP LIFE Critical Thinking certificate (Critical-Thinking-in-the-AI-Era.dim_800x600.png > Critical-Thinking-in-the-AI-Era.dim_800x600.png)\n- Replace with actual Cursa Web Development certificate (Cursa-WebDev-Certificate.dim_800x600.png > Cursa-WebDev-Certificate.dim_800x600.png)\n- Replace with actual course completion certificate (CAN_37971210_5058610.dim_800x600.png > CAN_37971210_5058610.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-a-hero-section-with-large-animated-text-displaying-nightmare-subtitle-cse-student-programmer-ai-designer-animated-introduction-text-and-two-glowing-call-to-action-buttons-labeled-view-projects-and-download-resume-include-a-3d-rotating-tech-object-or-animated-background-element-using-react-three-fiber",
+      "title": "Implement a hero section with large animated text displaying 'Nightmare', subtitle 'CSE Student | Programmer | AI Designer', animated introduction text, and two glowing call-to-action buttons labeled 'View Projects' and 'Download Resume'. Include a 3D rotating tech object or animated background element using React Three Fiber.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-me-section-with-professional-content-describing-nightmare-s-passion-for-programming-and-design-interest-in-ai-and-modern-web-technologies-problem-solving-mindset-and-learning-focused-attitude-use-glassmorphism-card-styling-with-smooth-fade-in-animation-on-scroll",
+      "title": "Create an About Me section with professional content describing Nightmare's passion for programming and design, interest in AI and modern web technologies, problem-solving mindset, and learning-focused attitude. Use glassmorphism card styling with smooth fade-in animation on scroll.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-skills-section-with-animated-progress-bars-for-five-skills-c-programming-c-programming-web-development-ui-design-and-ai-tools-each-skill-should-have-animated-icons-and-glowing-indicators-that-animate-on-scroll-or-page-load",
+      "title": "Build a Skills section with animated progress bars for five skills: C Programming, C++ Programming, Web Development, UI Design, and AI Tools. Each skill should have animated icons and glowing indicators that animate on scroll or page load.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-certifications-section-displaying-four-certificate-cards-web-development-with-ai-training-including-html-css-bootstrap-dbms-php-javascript-react-and-final-project-intershala-webdev-certificate-critical-thinking-in-the-ai-era-hp-life-course-completion-critical-thinking-in-the-ai-era-additional-web-development-certification-cursa-cursa-webdev-certificate-and-additional-course-certificate-can-37971210-5058610-each-card-should-use-glassmorphism-styling-with-glowing-borders-and-hover-animations-including-preview-effects",
+      "title": "Create a Certifications section displaying four certificate cards: 'Web Development with AI training including HTML, CSS, Bootstrap, DBMS, PHP, JavaScript, React and final project' (Intershala-WebDev-Certificate), 'Critical Thinking in the AI Era — HP LIFE course completion' (Critical Thinking in the AI Era), 'Additional web development certification (Cursa)' (Cursa-WebDev-Certificate), and 'Additional course certificate' (CAN_37971210_5058610). Each card should use glassmorphism styling with glowing borders and hover animations including preview effects.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-projects-section-with-placeholder-cards-for-three-categories-web-frontend-designs-ai-generated-graphics-and-programming-projects-each-card-should-include-hover-zoom-animation-and-light-reflection-effect",
+      "title": "Implement a Projects section with placeholder cards for three categories: Web frontend designs, AI-generated graphics, and Programming projects. Each card should include hover zoom animation and light reflection effect.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-section-with-an-email-contact-form-and-social-media-icons-apply-neon-glow-hover-effects-to-both-form-elements-and-social-icons-use-minimal-futuristic-layout-with-glassmorphism-styling",
+      "title": "Build a Contact section with an email contact form and social media icons. Apply neon glow hover effects to both form elements and social icons. Use minimal futuristic layout with glassmorphism styling.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-dark-futuristic-theme-with-glassmorphism-and-transparency-effects-throughout-the-entire-website-apply-neon-glow-effects-to-buttons-3d-transformations-to-interactive-elements-parallax-scrolling-smooth-page-transitions-floating-ui-elements-gradient-lighting-motion-blur-effects-and-micro-interactions-on-hover-and-scroll-events",
+      "title": "Implement a dark futuristic theme with glassmorphism and transparency effects throughout the entire website. Apply neon glow effects to buttons, 3D transformations to interactive elements, parallax scrolling, smooth page transitions, floating UI elements, gradient lighting, motion blur effects, and micro-interactions on hover and scroll events.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-interactive-animated-background-using-either-particles-system-or-animated-grid-pattern-the-background-should-be-performant-non-intrusive-and-complement-the-dark-futuristic-theme",
+      "title": "Create an interactive animated background using either particles system or animated grid pattern. The background should be performant, non-intrusive, and complement the dark futuristic theme.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-additional-ui-enhancements-including-cursor-glow-effect-page-load-animation-scroll-based-element-reveal-animations-3d-tilt-effect-on-cards-animated-gradient-borders-sticky-navigation-bar-and-professional-footer-ensure-all-enhancements-are-performant-and-enhance-user-experience",
+      "title": "Implement additional UI enhancements including cursor glow effect, page load animation, scroll-based element reveal animations, 3D tilt effect on cards, animated gradient borders, sticky navigation bar, and professional footer. Ensure all enhancements are performant and enhance user experience.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-entire-portfolio-website-is-fully-responsive-across-desktop-tablet-and-mobile-devices-optimize-for-fast-loading-performance-implement-seo-friendly-structure-with-proper-meta-tags-and-semantic-html-ensure-accessibility-standards-are-met-with-aria-labels-and-keyboard-navigation-and-implement-smooth-scrolling-navigation-between-sections",
+      "title": "Ensure the entire portfolio website is fully responsive across desktop, tablet, and mobile devices. Optimize for fast loading performance, implement SEO-friendly structure with proper meta tags and semantic HTML, ensure accessibility standards are met with ARIA labels and keyboard navigation, and implement smooth scrolling navigation between sections.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-certificate-placeholder-images-as-static-assets-in-frontend-public-assets-generated-for-the-four-certificates-intershala-webdev-certificate-critical-thinking-in-the-ai-era-cursa-webdev-certificate-and-can-37971210-5058610",
+      "title": "Render generated certificate placeholder images as static assets in frontend/public/assets/generated for the four certificates: Intershala-WebDev-Certificate, Critical Thinking in the AI Era, Cursa-WebDev-Certificate, and CAN_37971210_5058610.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with animated name, subtitle, CTA buttons, and 3D background",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Me section with professional content describing programming passion and AI interest",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Skills section with animated progress bars for C, C++, Web Dev, UI Design, and AI Tools",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Certifications section with glass cards showing 4 certificates with hover animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Projects section with placeholder cards for web designs, AI graphics, and programming projects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact section with email form and social icons with glow effects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Dark futuristic theme with glassmorphism, neon glow effects, and 3D transformations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Advanced animations: parallax scrolling, smooth transitions, floating elements, gradient lighting",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Interactive background with particles or animated grid",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Extra enhancements: cursor glow, page load animation, scroll reveal, 3D card tilt, sticky nav",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Replace the four certificate placeholder images with actual certificate images provided by the user for Intershala-WebDev-Certificate, Critical Thinking in the AI Era, Cursa-WebDev-Certificate, and CAN_37971210_5058610",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Nightmare Portfolio",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

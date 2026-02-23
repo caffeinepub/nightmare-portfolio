@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        --background: 0.08 0 0;
+        --foreground: 0.985 0 0;
+        --card: 0.12 0 0;
+        --card-foreground: 0.985 0 0;
+        --popover: 0.12 0 0;
+        --popover-foreground: 0.985 0 0;
+        --primary: 0.7 0.25 195;
+        --primary-foreground: 0.985 0 0;
+        --secondary: 0.15 0 0;
+        --secondary-foreground: 0.985 0 0;
+        --muted: 0.15 0 0;
+        --muted-foreground: 0.6 0 0;
+        --accent: 0.2 0 0;
+        --accent-foreground: 0.985 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        --border: 0.25 0.15 195;
+        --input: 0.2 0.1 195;
+        --ring: 0.7 0.25 195;
+        
+        /* Neon colors */
+        --neon-cyan: 0.7 0.25 195;
+        --neon-purple: 0.6 0.25 285;
+        --neon-pink: 0.65 0.25 340;
+    }
+
+    .dark {
+        --background: 0.08 0 0;
+        --foreground: 0.985 0 0;
+        --card: 0.12 0 0;
+        --card-foreground: 0.985 0 0;
+        --popover: 0.12 0 0;
+        --popover-foreground: 0.985 0 0;
+        --primary: 0.7 0.25 195;
+        --primary-foreground: 0.985 0 0;
+        --secondary: 0.15 0 0;
+        --secondary-foreground: 0.985 0 0;
+        --muted: 0.15 0 0;
+        --muted-foreground: 0.6 0 0;
+        --accent: 0.2 0 0;
+        --accent-foreground: 0.985 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        --border: 0.25 0.15 195;
+        --input: 0.2 0.1 195;
+        --ring: 0.7 0.25 195;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+}
+
+@layer utilities {
+    /* Glassmorphism effect */
+    .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(0, 255, 255, 0.1);
+    }
+
+    /* Neon glow effects */
+    .shadow-neon-glow {
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.3),
+                    0 0 40px rgba(0, 255, 255, 0.1);
+    }
+
+    .shadow-neon-glow-lg {
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.4),
+                    0 0 60px rgba(0, 255, 255, 0.2),
+                    0 0 90px rgba(0, 255, 255, 0.1);
+    }
+
+    /* Text glow */
+    .text-glow {
+        text-shadow: 0 0 10px rgba(0, 255, 255, 0.5),
+                     0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    /* Neon colors */
+    .text-neon-cyan {
+        color: oklch(var(--neon-cyan));
+    }
+
+    .text-neon-purple {
+        color: oklch(var(--neon-purple));
+    }
+
+    .text-neon-pink {
+        color: oklch(var(--neon-pink));
+    }
+
+    .bg-neon-cyan {
+        background-color: oklch(var(--neon-cyan));
+    }
+
+    .bg-neon-purple {
+        background-color: oklch(var(--neon-purple));
+    }
+
+    .bg-neon-pink {
+        background-color: oklch(var(--neon-pink));
+    }
+
+    .border-neon-cyan {
+        border-color: oklch(var(--neon-cyan));
+    }
+
+    .border-neon-purple {
+        border-color: oklch(var(--neon-purple));
+    }
+
+    .border-neon-pink {
+        border-color: oklch(var(--neon-pink));
+    }
+}
+
+@layer components {
+    /* Animations */
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+
+    @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes scroll-indicator {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(12px);
+            opacity: 0;
+        }
+    }
+
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 1s ease-out forwards;
+    }
+
+    .animate-scroll-indicator {
+        animation: scroll-indicator 1.5s ease-in-out infinite;
+    }
+
+    /* Intersection observer animations */
+    .animate-in {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    /* Focus visible styles for accessibility */
+    *:focus-visible {
+        outline: 2px solid oklch(var(--neon-cyan));
+        outline-offset: 2px;
+    }
+
+    /* Reduced motion support */
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+}

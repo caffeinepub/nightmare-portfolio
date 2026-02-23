@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates all portfolio sections with page load animation, cursor glow effect, animated background, navigation, and footer.",
+  "frontend/src/components/Navigation.tsx": "Sticky navigation bar with glassmorphism effect, smooth scroll links to all sections, and responsive mobile menu with hamburger toggle.",
+  "frontend/src/components/HeroSection.tsx": "Hero section featuring animated \"NIGHTMARE\" title with gradient text, subtitle, CTA buttons, 3D rotating sphere background, and scroll indicator.",
+  "frontend/src/components/Scene3D.tsx": "React Three Fiber 3D scene component with animated distorted sphere featuring metallic material and auto-rotation for hero background.",
+  "frontend/src/components/AboutSection.tsx": "About section with glassmorphism card containing professional bio and four highlight cards showcasing programming passion, AI interest, problem-solving, and learning focus.",
+  "frontend/src/components/SkillsSection.tsx": "Skills section displaying five animated progress bars with icons for C, C++, Web Development, UI Design, and AI Tools, replaced Progress component with custom div to avoid prop type errors.",
+  "frontend/src/components/CertificationsSection.tsx": "Certifications section with four glassmorphism certificate cards featuring 3D tilt effect, certificate images, and hover animations with glow borders.",
+  "frontend/src/components/ProjectsSection.tsx": "Projects section with three placeholder cards for web frontend, AI graphics, and programming projects featuring 3D tilt, hover zoom, and gradient effects.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with email form (name, email, message), form validation, social media icons with neon glow hover effects, and glassmorphism styling.",
+  "frontend/src/components/Footer.tsx": "Professional footer with copyright notice, attribution to caffeine.ai with UTM tracking, and animated heart icon.",
+  "frontend/src/components/AnimatedBackground.tsx": "Canvas-based particle system background with connected particles creating an animated network effect, fixed TypeScript null safety issues by passing canvas dimensions to Particle constructor.",
+  "frontend/src/components/CursorGlow.tsx": "Custom cursor glow effect that follows mouse movement with radial gradient creating a futuristic interactive experience.",
+  "frontend/src/components/PageLoadAnimation.tsx": "Initial page load animation with animated \"NIGHTMARE\" title, progress bar, and smooth transition to main content.",
+  "frontend/src/hooks/use3DTilt.ts": "Custom React hook providing 3D tilt effect on mouse movement for interactive card components with perspective transforms.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks (empty as portfolio is static with no backend data storage).",
+  "frontend/src/index.css": "Global styles with dark futuristic theme, OKLCH color system, neon color variables, glassmorphism utilities, glow effects, animations, and accessibility features.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with neon colors, custom animations (float, fade-in-up, scroll-indicator), neon glow shadows, and backdrop blur utilities.",
+  "frontend/index.html": "HTML entry point with comprehensive SEO meta tags, Open Graph tags, Twitter Card tags, theme color, and accessibility attributes."
+}

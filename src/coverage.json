@@ -1,0 +1,38 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-23T14:22:58.029Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 0,
+    "items": [
+      {
+        "id": "REQ-12",
+        "summary": "Replace the four certificate placeholder images with actual certificate images provided by the user for Intershala-WebDev-Certificate, Critical Thinking in the AI Era, Cursa-WebDev-Certificate, and CAN_37971210_5058610",
+        "status": "missing",
+        "plannedFiles": [
+          "frontend/src/components/CertificationsSection.tsx"
+        ],
+        "matchedFiles": []
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/CAN_37971210_5058610.dim_800x600.png",
+    "frontend/public/assets/generated/Critical-Thinking-in-the-AI-Era.dim_800x600.png",
+    "frontend/public/assets/generated/Cursa-WebDev-Certificate.dim_800x600.png",
+    "frontend/public/assets/generated/Intershala-WebDev-Certificate.dim_800x600.png",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

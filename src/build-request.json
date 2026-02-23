@@ -1,0 +1,46 @@
+{
+  "kind": "build_request",
+  "title": "Replace certificate placeholders with actual certificate images",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-12",
+      "text": "Replace the four certificate placeholder images with actual certificate images provided by the user for Intershala-WebDev-Certificate, Critical Thinking in the AI Era, Cursa-WebDev-Certificate, and CAN_37971210_5058610",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "use these certificates in website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four certificate images are replaced with the actual certificates",
+        "Certificate images maintain proper aspect ratio and quality",
+        "Images are optimized for web display",
+        "Hover animations and glassmorphism styling remain intact",
+        "Certificate cards display correctly on all screen sizes"
+      ]
+    }
+  ],
+  "constraints": [
+    "Preserve existing glassmorphism styling and hover animations on certificate cards",
+    "Maintain responsive grid layout for certificates section",
+    "Do not modify the CertificationsSection.tsx component structure"
+  ],
+  "nonGoals": [
+    "Adding new certificates beyond the existing four",
+    "Changing certificate titles or descriptions",
+    "Modifying other sections of the portfolio"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": [
+      "Replace with actual Intershala Web Development certificate (Intershala-WebDev-Certificate.dim_800x600.png > Intershala-WebDev-Certificate.dim_800x600.png)",
+      "Replace with actual HP LIFE Critical Thinking certificate (Critical-Thinking-in-the-AI-Era.dim_800x600.png > Critical-Thinking-in-the-AI-Era.dim_800x600.png)",
+      "Replace with actual Cursa Web Development certificate (Cursa-WebDev-Certificate.dim_800x600.png > Cursa-WebDev-Certificate.dim_800x600.png)",
+      "Replace with actual course completion certificate (CAN_37971210_5058610.dim_800x600.png > CAN_37971210_5058610.dim_800x600.png)"
+    ]
+  }
+}
